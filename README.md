@@ -6,23 +6,28 @@
 - Debian/Ubuntu
 
 ```sudo apt update```
+
 ```sudo apt install ffmpeg -y```
 
 - Centos/Fedora/Redhat
 
 ```sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm```
+
 ```sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm```
+
 ```sudo dnf -y install ffmpeg``` 
 
 - Windows
 
 Install with choco (open powershell run as administrator):
 ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))```
+
 ```choco install ffmpeg```
 
 - MACOS
 
 Install with brew:
+
 ```brew install ffmpeg```
 
 ## Overview
